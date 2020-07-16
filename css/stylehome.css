@@ -1,0 +1,174 @@
+@font-face{
+    font-family:alex;
+    src:url('../fonts/AlexBrush-Regular.ttf');
+}
+
+@media screen and (max-width:800px) {
+    #headersec header{
+        background-color: aqua;
+        color: black;
+    }
+    .headright{
+        font-family: sans-serif;
+        text-shadow: 0px;
+    }
+}
+#headersec{
+     background-color: darksalmon;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+body{
+    margin: 0px;
+    background-color: antiquewhite;
+}
+.headmar{
+    margin: 8px;
+}
+#headersec header{
+    height: 80px;
+    width: 90%;
+    margin: 20px;
+   margin-bottom: 2px;
+    padding-left: 20px;
+    font-size: xx-large;
+    text-align: justify;
+    
+/*border: 1px solid green;*/
+}
+#headersec nav{
+    height: 40px;
+    width: 90%;
+    margin: 20px;
+/*   border: 1px solid green;*/
+    padding-left: 20px;
+    margin-top: 60px;
+   
+    
+}
+th{
+    background-color: greenyellow;
+}
+
+nav ul{
+    float: left;
+}
+nav ul li{
+    display: inline;
+    padding: inherit;
+    font-family: fantasy;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: white;
+    border: 1px solid white;
+}
+nav ul li a{
+    text-decoration: none;
+    color:aquamarine;  
+}
+[href$="com"]       /*Attribute selector href ends with .com & starting with href^="com"*/
+{          
+    color:cadetblue;
+}
+table tr td{
+    background-color: blanchedalmond;
+}
+
+table tr td:last-of-type{
+    background-color: palegreen;
+    }
+table tr td:nth-child(2){
+    background-color: skyblue;
+
+}
+table
+{
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+table tr:nth-child(2n){
+    background-color:red;
+}
+table tr th:first-of-type{
+    border-radius: 5px;
+}
+table tr th:last-of-type{
+    border-radius: 5px;
+}
+table tr:last-of-type td:first-of-type{
+    border-radius: 5px;
+}
+table tr:last-of-type td:last-of-type{
+    border-radius: 5px;
+}
+/*
+[type=text]:valid{
+    background-color: red;
+}
+*/
+nav ul li:last-of-type{
+    margin-left: 650px;
+}
+nav ul li:nth-child(3){
+    margin-left: 100px;
+}
+.foothead{
+    border-top: 3px solid green;
+    height: 100px;
+    
+    
+    padding: 10px;
+    background-color:gainsboro;
+    clear: both;
+}
+#mainsec{
+    
+    border-top: 3px solid green;
+}
+#mainsec aside{
+    
+    background-color: whitesmoke;
+    float: left;
+    height: 400px;
+    width: 25%;
+/*    border-right: 7px solid whitesmoke;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+/*    background: linear-gradient(left bottom, left top, color-stop(0.70,#00aaaa), color-stop(0.30,#432100));*/
+    background-image: linear-gradient(to bottom, #00aaaa, black);
+}
+#mainsec article{
+/*    border-left: 3px solid yellow;*/
+    background-image: url(../image/backgrnd.jpg);
+    float: left;
+    height: 400px;
+    width: 72%;
+     padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: justify;
+    padding-bottom: 10px;
+    column-count: 2;
+    color:floralwhite;
+}
+.footleft{
+    display: inline;
+}
+.footright{
+    display: inline;
+    text-align: right;
+    float: right;
+}
+.headright{
+    display: inline;
+    padding-left: 500px;
+    position: absolute;
+    font-family: alex;
+    text-shadow: 5px 0px 0.1px #ccc;
+}
