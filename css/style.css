@@ -4,3 +4,8 @@ nav, section{
 *{
     border: 2px solid red;
 }
+
+header {
+    height: 100px;
+  background-image: radial-gradient(red 5%, green 15%, blue 60%);
+}

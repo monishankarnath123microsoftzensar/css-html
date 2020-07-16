@@ -1,0 +1,5 @@
+Radial gradient
+Animation both keyframe and transition
+Both the task are done in index.html
+Css portion is also done inside index.html within style tag
+
