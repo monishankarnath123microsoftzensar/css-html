@@ -1,0 +1,7 @@
+Done all the assignment.
+1. flexboxAssign1.html contain both the css flexstyle.css & main.css linked in the head tag, only we need to comment the one-other to see the style.
+2. index.html contain the complete css of The skew() method, The scale() method, The rotate() method, The translate() method.
+3. Find out question on: Difference between em & rem
+Ans.
+em : em is relative to the font-size of its direct or nearest parent, em gives the ability to control an area of a design.
+rem : rem is only relative to the html (root) font-size, rem gives the ability to scale type across the entire page easily.
