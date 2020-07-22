@@ -1,0 +1,14 @@
+Assignments
+1. Pure Bootstrap Assignment in index.html
+2. Grid Assignment in gridAssign.html
+3. Findout:
+	1.What is meta tag and what we put inside.
+	ans: Meta tags are snippets of text that describe a page's content, the meta tags don't appear on the page itself, but only in the page's source code. Meta tags are essentially little content descriptors that help tell search engines what a web page is about.
+	<head>
+ 	 <meta charset="UTF-8">
+  	<meta name="description" content="Free Web tutorials">
+  	<meta name="keywords" content="HTML, CSS, JavaScript">
+  	<meta name="author" content="John Doe">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+

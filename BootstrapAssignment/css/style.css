@@ -1,0 +1,18 @@
+.containers{
+   width: 100%;
+  padding-right: 200px;
+  padding-left: 200px;
+
+}
+.top-block{
+    background-color: lightskyblue;
+    height: 300px;
+}
+.btn-warnings{
+    background-color: white;
+    width: 100%
+}
+.btn-warn{
+    background-color: white;
+    width: 150px;
+}
