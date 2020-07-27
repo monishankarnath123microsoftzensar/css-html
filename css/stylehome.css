@@ -13,6 +13,8 @@
         text-shadow: 0px;
     }
 }
+
+
 #headersec{
      background-color: darksalmon;
     border: 2px solid red;
@@ -118,8 +120,6 @@ nav ul li:nth-child(3){
 .foothead{
     border-top: 3px solid green;
     height: 100px;
-    
-    
     padding: 10px;
     background-color:gainsboro;
     clear: both;

@@ -1,0 +1,38 @@
+.main{
+    width: 70%;
+    border-left: 4px double green;
+    border-right: 4px double green;
+    margin-left: 200px;
+    height: 650px;
+}
+.register
+{
+    text-align: center;
+}
+input[type="text"]{
+    width: 50%;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+button{
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+button:hover{
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: greenyellow;
+    border: 1px solid green;
+}
+input:invalid{
+    border: 2px solid red;
+}
+
+input:valid{
+    border: 2px solid green;
+}
